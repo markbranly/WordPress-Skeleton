@@ -10,3 +10,18 @@ define( 'DB_NAME', 'local_db_name' );
 define( 'DB_USER', 'local_db_user' );
 define( 'DB_PASSWORD', 'local_db_password' );
 define( 'DB_HOST', 'localhost' ); // Probably 'localhost'
+
+
+// ================================================
+// Custom Content Directory
+// If you have a different url scheme for locat dev
+// ================================================
+// define( 'WP_CONTENT_URL', 'http://' . $_SERVER['HTTP_HOST'] . '/subdir/content' );
+
+
+// =================================================================
+// Debug mode
+// Always enable these in local-config.php
+// =================================================================
+define( 'SAVEQUERIES', true );
+define( 'WP_DEBUG', true );
