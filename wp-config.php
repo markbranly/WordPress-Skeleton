@@ -18,7 +18,7 @@ if ( file_exists( dirname( __FILE__ ) . '/local-config.php' ) ) {
 // ========================
 define( 'WP_CONTENT_DIR', dirname( __FILE__ ) . '/content' );
 // check for WP_CONTENT_URL before defining, allows local-config to define
-if (!is_defined('WP_CONTENT_URL') ) {
+if (!defined('WP_CONTENT_URL') ) {
     define( 'WP_CONTENT_URL', 'http://' . $_SERVER['HTTP_HOST'] . '/content' );
 }
 // ================================================
