@@ -1,7 +1,13 @@
 /assets
+!/content/themes/*/assets
+/content/themes/*/assets/css/less/*.css
 /shared
 /local-config.php
 /sql-dump-*.sql
 /db-sync
 /content/upgrade/
+/content/plugins/debug-bar*
+node_modules
+*.sublime-project
+*.sublime-workspace
 .DS_Store
